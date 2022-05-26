@@ -1,0 +1,114 @@
+.optin-page-container{
+    height: 100vh;
+    background-image: url("./../assets/optin-bg.png");
+    background-size: cover;
+}
+.optin-page-content{
+    margin: 2rem 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.optin-page-content img{
+    width:800px;
+}
+.optin-page-content h1{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top:6rem;
+    overflow: hidden;
+}
+.optin-page-content p{
+    padding: 0 12rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.optin-form{
+    width: 70%;
+}
+.optin-form input{
+    display: block;
+    margin: 5rem 0;
+    padding: 2rem 4rem;
+    width: 100%;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #EAEAEA;
+    
+}
+.optin-page-content .social-icon{
+    width:300px;
+}
+@media screen and (max-width:1250px) {
+    .optin-page-content img{
+        width:500px;
+    }
+    .optin-page-content h1{
+        font-size: 3rem;
+    }
+    .optin-page-content p{
+        font-size: 2rem;
+        padding: 0 7rem;
+       
+    }
+    .optin-form{
+        width: 80%;
+    }
+}
+@media screen and (max-width:950px) {
+    .optin-page-content{
+        margin: 2rem 2rem;
+    }
+    .optin-page-content img{
+        width:500px;
+    }
+    .optin-page-content h1{
+        font-size: 2.7rem;
+    }
+    .optin-page-content p{
+        font-size: 1.8rem;
+        padding: 0 4rem;
+       
+    }
+    .optin-form{
+        width: 90%;
+    }
+}
+@media screen and (max-width:750px) {
+ 
+    .optin-form{
+        width: 100%;
+    }
+    .optin-form input{
+        display: block;
+        margin: 5rem 0;
+        padding: 1rem 3rem;
+    }
+}
+@media screen and (max-width:550px) {
+    .optin-page-content p{
+        font-size: 1.8rem;
+        padding: 0 1rem;
+       
+    }
+    .optin-page-content h1{
+        font-size: 2rem;
+    }
+    .optin-page-content p{
+        font-size: 1rem;
+    }
+    .optin-form{
+        width: 100%;
+    }
+    .optin-form input{
+        display: block;
+        margin: 5rem 0;
+        padding: 1rem 3rem;
+    }
+}
