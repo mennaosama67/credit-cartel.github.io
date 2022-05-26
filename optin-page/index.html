@@ -9,6 +9,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./../style.css">
     <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
     <div class="optin-page bg-overlay">
@@ -18,22 +19,37 @@
                 <h1>Are You Ready To Give Your Business The Cashflow It Needs?</h1>
                 <p>You're a few short steps away from taking your
                     business to the next level. Fill in the information below:</p>
-                    <form action="" class="optin-form">
-                        <input type="text" placeholder="First Name" >
-                        <input type="text" placeholder="Last Name" >
-                        <input type="number" placeholder="Contact Number" >
-                        <input type="email" placeholder="Email" >
-                        <input type="text" placeholder="Referral Code (optional):" >
+                    
+                    <form class="optin-form" id="myForm" name="google-sheet">
+                        <input type="text" placeholder="First Name" name="First Name" >
+                        <input type="text" placeholder="Last Name" name="Last Name">
+                        <input type="number" placeholder="Contact Number" name="Contact Number">
+                        <input type="email" placeholder="Email" name="Email">
+                        <input type="text" placeholder="Referral Code (optional):" name="Referral Code" >
+                        <a href="./../thankyou-page/index.html"> <button class="header-btn" type="submit">Schedule a call with us!</button></a>
+
                     </form>
-                    <a href="./../thankyou-page/index.html"> <button class="header-btn">Schedule a call with us!</button></a>
                     <p>Follow us on social media</p>
                     <img src="../assets/social-links.png" alt="" class="social-icon">
                </div>
                   
            </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbynnGXMnP5XZ4d0updncssF2RcST0VHLSDwfF44H62Zl3XBOi7pBwDHCS_FACbGebDx/exec'
+    const form = document.forms['google-sheet']
+    
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response=>console.log('success',response)).catch(error=>console.log("error",error))
+        window.location.href='./../thankyou-page/index.html'
+    })
 </script>
 </body>
 </html>
