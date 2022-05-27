@@ -13,6 +13,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbyVLkM-XztLihYZm3CnX3
 const form = document.forms['google-sheet']
  referralInput.addEventListener('mouseleave',function(){
      if(randomCode.includes(referralInput.value)){
+      
         form.addEventListener('submit', e => {
             e.preventDefault()
             fetch(scriptURL, { method: 'POST', body: new FormData(form)})
@@ -22,12 +23,8 @@ const form = document.forms['google-sheet']
                 window.location.href='./../thankyou-page/index.html'
             }, 1000);
         })
-   }else{
-         invalidInput.innerHTML='invalid referral code'
+        
+   }else if(referralInput.value!=''){
+         invalidInput.innerHTML='invalid referral code';
    }
  })
-form.addEventListener('submit', e => {
-    e.preventDefault();
-    console.log(referralInput)
-})
- 

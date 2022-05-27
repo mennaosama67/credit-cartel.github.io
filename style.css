@@ -79,10 +79,12 @@ header{
   font-weight: 500;
 }
 .header-media {
-  width: 45%;
+  width: 40%;
+  margin: auto;
 }
-.header-media img {
-  width: 100%;
+.header-media video {
+ width: 100%;
+
 }
 .mobile-header-btn {
   display: none;
@@ -101,6 +103,7 @@ header{
   .header-btn {
     font-size: 1.1rem;
   }
+ 
 }
 
 @media screen and (max-width: 950px) {
@@ -119,7 +122,12 @@ header{
   }
 
   .header-media {
-    width: 85%;
+    width: 80%;
+    margin: auto;
+  }
+  .header-media video {
+   width: 70%;
+  
   }
   .section-padding {
     padding: 2rem 3rem;
@@ -143,7 +151,12 @@ header{
     font-size: 1rem;
   }
   .header-media {
-    width: 100%;
+    width: 40%;
+    margin: auto;
+  }
+  .header-media video {
+   width: 70%;
+  
   }
   .section-padding {
     padding: 2rem 3rem;
@@ -479,6 +492,10 @@ p{
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom:3rem;
+}
+.benefit-span{
+  background-color:#f38b16f7;
+  color:black;
 }
 .benifit-content {
 justify-content: space-between;
