@@ -202,7 +202,8 @@ header{
     margin: 1.5rem 0;
 }
 }
-@media screen and (max-width: 550px) {
+
+@media screen and (max-width: 570px) {
   .partners-container h1 {
     font-size: 1.2rem;
   }
