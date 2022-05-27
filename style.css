@@ -151,7 +151,7 @@ header{
   color: black;
 }
 .partners-container h1 {
-  font-size: 1.8;
+  font-size: 1.9rem;
   font-weight: bold;
 }
 .partners-container p {
@@ -252,9 +252,10 @@ header{
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  width: 85%;
 }
 .work-content {
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -263,13 +264,13 @@ header{
 
 .work-content span,
 p{
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 500;
   flex: 1;
   margin-bottom: 0;
 }
 .work-content img{
-  width:35px;
+  width:30px;
   margin-right: 1rem;
  
 }
@@ -381,11 +382,7 @@ p{
     overflow: hidden;
   }
 }
-@media screen and (max-width: 1566px) {
-  .about-credit-cartel .croped-img {
-    height: 100%;
-  }
-}
+
 @media screen and (max-width: 1490px) {
   .about-credit-cartel .croped-img {
     height: 100%;
@@ -396,34 +393,33 @@ p{
   }
   
     
-}
-@media screen and (max-width: 1430px) {
-  .about-credit-cartel .croped-img {
-    height: 100%;
-  }
-}
 @media screen and (max-width: 1240px) {
   .about-credit-cartel-content h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-size: 2.3rem;
   }
   .about-credit-cartel-content p {
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .about-credit-cartel .croped-img {
+    height: 90%;
   }
 }
 @media screen and (max-width: 1110px) {
   .about-credit-cartel-content {
-    width: 100%;
-    margin: 0;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
   }
   .about-credit-cartel-content h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-size: 2.3rem;
+    text-align: center;
   }
   .about-credit-cartel-content p {
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: 0;
   }
   .about-credit-cartel .croped-img {
     display: none;
@@ -492,31 +488,30 @@ align-items: center;
   width: 50px;
 }
 .benifit-content h2{
-  font-size:25px;
+  font-size:23px;
   font-weight: bold;
   margin: 1rem 0;
 }
 .benifit-content p{
-  font-size:20px;
+  font-size:18px;
   color: #D6D6D6;
  
 }
 @media screen and (max-width: 1250px) {
   .benefits h1 {
-    font-size: 2.9rem;
+    font-size: 2.5rem;
   }
 
   .benifit h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .benifit p {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     margin: 1.5rem 0;
   }
 }
 @media screen and (max-width: 767px) {
   .benifit{
-
     width: 100%;
   }
   .benifit-content {
@@ -562,18 +557,18 @@ align-items: center;
 .get-info h1 {
   color: black;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 
   overflow: hidden;
 }
 .get-info p {
   color: #b9b9b9;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 
 }
 .email-info {
   border: 2px solid #b9b9b9;
-  padding: 10px 10px;
+  padding: 8px 10px;
   display: flex;
   justify-content: space-between;
   margin-top: 4rem;
@@ -596,20 +591,20 @@ align-items: center;
 }
 @media screen and (max-width: 1250px) {
   .get-info h1 {
-    font-size: 3rem;
+    font-size: 2.3rem;
     
   }
   .get-info p {
     color: #b9b9b9;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 
   }
 
   .email-info input {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
   .email-info button {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 850px) {
@@ -668,18 +663,18 @@ align-items: center;
   color: white;
 }
 .q-and-a-content h1 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: bold;
   margin-bottom: 3rem;
   overflow-y: hidden;
 }
 .q-and-a-content h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 .q-and-a-content p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #d6d6d6;
   margin-bottom:2rem;
 }
@@ -728,6 +723,7 @@ align-items: center;
   font-size: 2.5rem;
   font-weight: bold;
   overflow-y: hidden;
+  text-transform: uppercase;
 }
 .get-started-content .header-btn.about-btn {
   margin-top: 3rem;
@@ -740,6 +736,7 @@ align-items: center;
 .get-started-image {
   width: 50%;
   flex: 1.4;
+  margin: auto;
 }
 .get-started-image img {
   width: 100%;
@@ -750,17 +747,17 @@ align-items: center;
   font-size: 2.5rem;
   margin-top: 3rem;
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 @media screen and (max-width: 1250px) {
   .get-started-content {
-
     margin-top:6rem;
   }
   .get-started-container h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   .get-started > h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   
 }
@@ -773,6 +770,9 @@ align-items: center;
   .get-started-container h1 {
     font-size: 2rem;
     text-align: center;
+  }
+  .get-started-content {
+    margin-top:4rem;
   }
   .get-started > h1 {
     font-size: 2.3rem;
@@ -796,6 +796,9 @@ align-items: center;
   .get-started-container h1 {
     font-size: 1.5rem;
     text-align: center;
+  }
+  .get-started-content {
+    margin-top:2rem;
   }
   .get-started > h1 {
     font-size: 1.8rem;
@@ -911,4 +914,5 @@ footer {
   .footer-links h3 {
     font-size: 0.5rem;
   }
+}
 }
