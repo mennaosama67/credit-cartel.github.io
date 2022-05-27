@@ -29,7 +29,7 @@ a:visited {
   overflow-y: hidden;
 }
 .navbar-light .nav-item .nav-link {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 500;
   color: black;
 }
@@ -48,30 +48,29 @@ header{
   width: 50%;
 }
 .header-content h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
   font-weight: bold;
-  line-height: 52px;
   overflow-y: hidden;
 }
 .header-content p {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 .header-content h3 {
   color: #d6d6d6;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 .header-btn {
   color: black;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   background-color: #d6d6d6;
   border-radius: 5px;
   padding: 10px 15px;
   margin-top: 1rem;
-  border: none;
+  border: 2px solid #d6d6d6;
   outline: none;
   font-weight: 500;
 }
@@ -87,14 +86,13 @@ header{
 
 @media screen and (max-width: 1250px) {
   .header-content h1 {
-    font-size: 1.9rem;
-    line-height: 40px;
+    font-size: 1.5rem;
   }
   .header-content p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .header-content h3 {
-    font-size: 1.2rem;
+    font-size: 0.9;
   }
   .header-btn {
     font-size: 1.1rem;
@@ -153,27 +151,27 @@ header{
   color: black;
 }
 .partners-container h1 {
-  font-size: 3.5rem;
+  font-size: 1.8;
   font-weight: bold;
 }
 .partners-container p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 3rem;
   font-weight: 500;
 }
 .click-link {
   cursor: pointer;
   text-decoration: underline;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .line {
   max-width: 40rem;
   height: 5px;
   background-color: #d6d6d6;
-  margin: 3rem auto;
+  margin: 1.5rem auto;
 }
 .our-partners h2 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 .partner {
@@ -182,7 +180,7 @@ header{
 .partner img {
   width: 85%;
   height: 120px;
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 @media screen and (max-width: 1250px) {
   .partners-container h1 {
@@ -207,13 +205,17 @@ header{
     font-size: 0.8rem;
   }
   .our-partners h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   .partner {
-    margin: 2rem 0;
+    margin:1rem 0;
   }
   .click-link {
     font-size: 0.8rem;
+  }
+  .partner img {
+ 
+    margin: 1.5rem 0;
   }
 }
 
@@ -239,11 +241,11 @@ header{
 }
 .work-head h1 {
   font-weight: bold;
-  font-size: 4rem;
+  font-size:2.5rem;
 }
 .work-head h2 {
   font-weight: 500;
-  font-size: 3.5rem;
+  font-size: 1.8rem;
 }
 .works{
   display: flex;
@@ -261,42 +263,21 @@ header{
 
 .work-content span,
 p{
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 500;
   flex: 1;
   margin-bottom: 0;
 }
 .work-content img{
-  width: 60px;
+  width:35px;
   margin-right: 1rem;
  
 }
 .work-content-mobile{
   display: none;
 }
-/*.step {
-  margin: 2rem 0;
-}
 
-.step-title img {
-  width: 48px;
-  height: 48px;
-  margin: auto;
-}
-.step-title p,
-span {
-  font-size: 2.1rem;
-  font-weight: 500;
-}
-.step-title span {
-  margin-left: 1rem;
-}
-.step-title p {
-  display: inline;
-  width: 100%;
-  
-}
-*/
+
 @media screen and (max-width: 1200px) {
   .work-head h1 {
     font-size: 2.8rem;
@@ -304,10 +285,6 @@ span {
   .work-head h2 {
     font-size: 2rem;
   }
-  /*.step-title p,
-  span {
-    font-size: 1.5rem;
-  }*/
 }
 @media screen and (max-width: 750px) {
   .work-container{
@@ -348,24 +325,6 @@ span {
     margin-right: 0.5rem;
    
   }
- /* .step {
-    text-align: center;
-  }
-  .step-title p,
-  span {
-    font-size: 1rem;
-  }
-  .step-title p {
-    display: block;
-  }
-  .step-title span {
-    margin-left: 0;
-  }
-  .step-title img {
-    width: 14px;
-    height: 12px;
-    margin: auto;
-  }*/
 }
 /* about credit cartel styles*/
 .about-credit-cartel {
@@ -374,31 +333,41 @@ span {
 }
 
 .about-credit-cartel-content {
-  width: 54%;
+  width: 45%;
   margin: 0 5rem;
+  
 }
 .about-credit-cartel-content h1 {
-  font-size: 3.5rem;
+  font-size: 2.3rem;
   font-weight: bold;
   margin-bottom: 2rem;
 }
 .about-credit-cartel-content p {
-  font-size: 2.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
+  padding-bottom: 1rem;
+  width: 80%;
+  margin: 0;
 }
 .about-credit-cartel-btns {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
-.header-btn.about-btn {
-  background-color: white;
+.about-btn {
   border: 2px solid #d6d6d6;
   margin-left: 1rem;
+  color: black;
+  font-size: 1.1rem;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 1rem;
+  outline: none;
 }
 .about-credit-cartel .croped-img {
   height: 100%;
   position: absolute;
-  right: -9rem;
+  right:0;
   bottom: 0;
   object-fit: cover;
   overflow: hidden;
@@ -408,18 +377,18 @@ span {
 }
 @media screen and (max-width: 1644px) {
   .about-credit-cartel .croped-img {
-    height: 90%;
+    height: 100%;
     overflow: hidden;
   }
 }
 @media screen and (max-width: 1566px) {
   .about-credit-cartel .croped-img {
-    height: 80%;
+    height: 100%;
   }
 }
 @media screen and (max-width: 1490px) {
   .about-credit-cartel .croped-img {
-    height: 75%;
+    height: 100%;
   }
   .about-credit-cartel-content {
     margin: 0;
@@ -430,7 +399,7 @@ span {
 }
 @media screen and (max-width: 1430px) {
   .about-credit-cartel .croped-img {
-    height: 60%;
+    height: 100%;
   }
 }
 @media screen and (max-width: 1240px) {
@@ -462,20 +431,26 @@ span {
   .about-credit-cartel .mobile-img {
     display: block;
     position: relative;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
   }
 }
 @media screen and (max-width: 550px) {
   .about-credit-cartel-content h1 {
     font-size: 1.3rem;
+    text-align: center;
   }
   .about-credit-cartel-content p {
     font-size: 1rem;
+    width: 100%;
   }
   .credit-cartel-content {
     margin: 0;
   }
+  .about-credit-cartel-btns {
+    display: flex;
+    justify-content: center;
+}
   .about-credit-cartel-btns button {
     font-size: 0.5rem;
   }
@@ -490,7 +465,7 @@ span {
 
 }
 .benefits h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-bottom:3rem;
 }
@@ -502,56 +477,30 @@ align-items: center;
 }
 .benifit{
   margin: 0 0 3rem 0 ;
+  width: 45%;
 }
 .note-icon1{
-  width: 150px;
+  width: 80px;
 }
 .note-icon2{
-  width: 70px;
+  width: 40px;
 }
 .note-icon3{
-  width: 130px;
+  width: 60px;
 }
 .note-icon4{
-  width: 70px;
+  width: 50px;
 }
 .benifit-content h2{
-  font-size:41px;
+  font-size:25px;
   font-weight: bold;
   margin: 1rem 0;
 }
 .benifit-content p{
-  font-size:34px;
+  font-size:20px;
   color: #D6D6D6;
  
 }
-/*.benifit{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-}
-.benifit img {
-  width: 70px;
-  margin-bottom: 2rem;
- 
-}
-.benifit:first-child img {
-  width: 120px;
-  margin-bottom: 2rem;
-}
-.note-icon{
-  width: 50px;
-}
-.benifit h2 {
-  font-size: 2.8rem;
-}
-.benifit p {
-  font-size: 2rem;
-  color: #d6d6d6;
-  margin: 3rem 0;
-}*/
 @media screen and (max-width: 1250px) {
   .benefits h1 {
     font-size: 2.9rem;
@@ -566,6 +515,10 @@ align-items: center;
   }
 }
 @media screen and (max-width: 767px) {
+  .benifit{
+
+    width: 100%;
+  }
   .benifit-content {
     flex-direction: column;
     
@@ -573,6 +526,18 @@ align-items: center;
   .benefits h1 {
     font-size: 1.8rem;
     margin-bottom: 2rem;
+  }
+  .note-icon1{
+    width: 50px;
+  }
+  .note-icon2{
+    width: 40px;
+  }
+  .note-icon3{
+    width: 40px;
+  }
+  .note-icon4{
+    width: 45px;
   }
  
   .benifit h2 {
@@ -589,39 +554,42 @@ align-items: center;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-top: 5rem;
+  
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .get-info h1 {
   color: black;
   font-weight: bold;
-  font-size: 4rem;
-  line-height: 69px;
+  font-size: 2.5rem;
+
   overflow: hidden;
 }
 .get-info p {
   color: #b9b9b9;
-  font-size: 2rem;
-  line-height: 57px;
+  font-size: 1.5rem;
+
 }
 .email-info {
   border: 2px solid #b9b9b9;
-  padding: 20px 20px;
+  padding: 10px 10px;
   display: flex;
   justify-content: space-between;
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 .email-info input {
   background-color: transparent;
   border: none;
   outline: none;
   color: #7e7e7e;
-  font-size: 1.9rem;
+  font-size: 1.3rem;
   flex: 2;
 }
 .email-info button {
   background-color: black;
   color: white;
-  font-size: 1.9rem;
+  font-size: 1.3rem;
   outline: none;
   border: none;
   padding: 15px 30px;
@@ -629,12 +597,12 @@ align-items: center;
 @media screen and (max-width: 1250px) {
   .get-info h1 {
     font-size: 3rem;
-    line-height: 69px;
+    
   }
   .get-info p {
     color: #b9b9b9;
     font-size: 1.8rem;
-    line-height: 57px;
+
   }
 
   .email-info input {
@@ -645,38 +613,52 @@ align-items: center;
   }
 }
 @media screen and (max-width: 850px) {
+  .get-info {
+    width: 100%;
+  }
+  .get-info h1 {
+    font-size: 2rem;
+  }
+  .get-info p {
+    font-size: 1.5rem;
+  }
   .email-info {
     padding: 10px 15px;
     margin-top: 3rem;
+    width: 100%;
   }
   .email-info input {
     font-size: 1rem;
+    flex:1;
   }
   .email-info button {
     font-size: 1rem;
-   
+    padding: 10px 20px;
   }
 }
 @media screen and (max-width: 550px) {
+  .get-info{
+    width: 100%;
+  }
   .get-info h1 {
     font-size: 1.3rem;
-    line-height: 45px;
+   
   }
   .get-info p {
     color: #b9b9b9;
     font-size: 0.8rem;
-    line-height: 27px;
+
   }
   .email-info {
-    padding: 10px 20px;
-    margin-top: 3rem;
+    padding: 5px 10px;
+    margin-top: 1rem;
   }
   .email-info input {
     font-size: 0.5rem;
   }
   .email-info button {
     font-size: 0.5rem;
-    padding: 10px 20px;
+    padding:5px 10px;
   }
 }
 /*q-and-a styles*/
@@ -686,33 +668,33 @@ align-items: center;
   color: white;
 }
 .q-and-a-content h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   overflow-y: hidden;
 }
 .q-and-a-content h2 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .q-and-a-content p {
-  font-size: 1.9rem;
+  font-size: 1.2rem;
   color: #d6d6d6;
-  margin-bottom: 4rem;
+  margin-bottom:2rem;
 }
 @media screen and (max-width: 1250px) {
   .q-and-a-content h1 {
-    font-size: 3rem;
+    font-size: 1.8rem;
     margin-bottom: 5rem;
   }
   .q-and-a-content h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.7rem;
   }
   .q-and-a-content p {
-    font-size: 1.5rem;
-    margin-bottom: 4rem;
+    font-size: 1.1rem;
+    margin-bottom:3rem;
   }
 }
 @media screen and (max-width: 750px) {
@@ -720,16 +702,16 @@ align-items: center;
     text-align: center;
   }
   .q-and-a-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 4rem;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
   }
   .q-and-a-content h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 1.5rem;
   }
   .q-and-a-content p {
-    font-size: 1rem;
-    margin-bottom: 3rem;
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -737,16 +719,18 @@ align-items: center;
 .get-started-container {
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  margin: auto;
 }
 
 .get-started-container h1 {
   color: black;
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: bold;
   overflow-y: hidden;
 }
 .get-started-content .header-btn.about-btn {
-  margin-top: 4rem;
+  margin-top: 3rem;
   background-color: #d6d6d6;
 }
 .get-started-content {
@@ -763,20 +747,22 @@ align-items: center;
 .get-started > h1 {
   text-align: center;
   color: #d6d6d6;
-  font-size: 5rem;
-  margin-top: 5rem;
+  font-size: 2.5rem;
+  margin-top: 3rem;
   font-weight: bold;
 }
 @media screen and (max-width: 1250px) {
+  .get-started-content {
+
+    margin-top:6rem;
+  }
   .get-started-container h1 {
     font-size: 2.5rem;
   }
   .get-started > h1 {
     font-size: 3rem;
   }
-  .get-started-content {
-    margin-top: 4rem;
-  }
+  
 }
 @media screen and (max-width: 750px) {
   .get-started-container {
@@ -785,30 +771,38 @@ align-items: center;
     align-items: center;
   }
   .get-started-container h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
   .get-started > h1 {
-    font-size: 3rem;
+    font-size: 2.3rem;
   }
   .btn-container {
     width: 30%;
     margin: auto;
   }
+  .get-started-image {
+    width:90%;
+  }
+  .get-started-content .header-btn.about-btn {
+    margin-top: 1rem;
+   
+  }
   .btn-container button {
-    font-size: 1rem;
+    font-size:0.7rem;
   }
 }
 @media screen and (max-width: 550px) {
   .get-started-container h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
   }
   .get-started > h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
+    margin-top: 1rem;
   }
   .btn-container {
-    width: 44%;
+    width: 34%;
     margin: auto;
   }
 
@@ -830,23 +824,23 @@ footer {
   align-items: center;
 }
 .footer-info img {
-  width: 117px;
-  height: 70px;
-  padding-right: 2rem;
+  width: 100px;
+  height: 50px;
+  padding-right: 1rem;
 }
 .footer-info h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .social-icon {
-  width: 250px;
+  width: 200px;
   margin-bottom: 1rem;
 }
 .footer-links h3 {
-  font-size: 2.2rem;
+  font-size: 1rem;
 }
 @media screen and (max-width: 1450px) {
   footer{
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 4rem;
   }
   .footer-info img {
     width: 105px;
@@ -869,18 +863,18 @@ footer {
     padding: 1rem 1.5rem;
   }
   .footer-info img {
-    width: 105px;
-    height: 60px;
-    padding-right: 1.5rem;
+    width: 80px;
+    height: 50px;
+    padding-right: 1rem;
   }
   .footer-info h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .social-icon {
-    width: 210px;
+    width: 150px;
   }
   .footer-links h3 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -906,13 +900,13 @@ footer {
   .footer-info img {
     width: 40px;
     height: 20px;
-    padding-right: 1.5rem;
+    padding-right: 1rem;
   }
   .footer-info h3 {
     font-size: 0.6rem;
   }
   .social-icon {
-    width: 100px;
+    width: 90px;
   }
   .footer-links h3 {
     font-size: 0.5rem;
