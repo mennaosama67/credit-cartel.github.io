@@ -7,6 +7,10 @@
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
+  
+}
+body{
+  overflow-y: hidden;
 }
 a,
 a:active,
@@ -179,7 +183,7 @@ header{
 }
 .partner img {
   width:80%;
-
+  height: 200px;
   margin: 2rem 0;
 }
 @media screen and (max-width: 1250px) {
@@ -502,6 +506,8 @@ align-items: center;
   font-size:23px;
   font-weight: bold;
   margin: 1rem 0;
+  overflow-y: hidden;
+
 }
 .benifit-content p{
   font-size:18px;
