@@ -296,13 +296,14 @@ p{
   }
   .work-head {
     text-align: center;
-    padding: 3rem 0 0 0;
+    padding: 2rem 0 0 0;
   }
   .work-head h1 {
     font-size: 2rem;
   }
   .work-head h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin-bottom:1rem;
   }
   .work-content {
     display: none;
@@ -778,7 +779,7 @@ align-items: center;
     font-size: 2.3rem;
   }
   .btn-container {
-    width: 30%;
+    width: 35%;
     margin: auto;
   }
   .get-started-image {
@@ -786,6 +787,7 @@ align-items: center;
   }
   .get-started-content .header-btn.about-btn {
     margin-top: 1rem;
+    width: 80%;
    
   }
   .btn-container button {
@@ -805,8 +807,13 @@ align-items: center;
     margin-top: 1rem;
   }
   .btn-container {
-    width: 34%;
+    width: 44%;
     margin: auto;
+  }
+  .get-started-content .header-btn.about-btn {
+    margin-top: 1rem;
+    width: 88%;
+   
   }
 
   .get-started-image {
